@@ -4,26 +4,45 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Laravel</title>
-    <!-- Fonts -->
-    <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@200;600&display=swap" rel="stylesheet">
     <!-- Styles -->
     <style>
+      * {
+        padding: 0;
+        margin: 0;
+        box-sizing: border-box;
+      }
       html, body {
-          background-color: #fff;
-          color: #636b6f;
-          font-family: 'Nunito', sans-serif;
-          font-weight: 200;
-          height: 100vh;
-          margin: 0;
+        color: #000000;
+        font-family: sans-serif;
+        font-weight: 200;
+        font-size: 20px;
+        margin: 0;
+      }
+      .container {
+        width: 80%;
+        margin: 0 auto;
+        text-align: center;
       }
       ul {
         list-style: none;
         display: flex;
         justify-content: center;
         align-items: center;
+        text-transform: uppercase;
       }
       li {
-        padding: 5px 5px;
+        padding: 10px 5px;
+      }
+      a {
+        font-size: 15px;
+        color: #000000;
+      }
+      .text {
+        margin-top: 20px;
+      }
+      h2 {
+        font-weight: 300;
+        margin-top: 10px;
       }
       </style>
     </head>
@@ -42,8 +61,8 @@
       <main>
         <div class="container">
           <div class="text">
-            <h1>Questa è la pagina di chi siamo</h1>
-            <h2>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</h2>
+            <h1>Questa è la pagina Chi siamo</h1>
+            <h2>Siamo una...</h2>
           </div>
         </div>
       </main>
